@@ -184,6 +184,7 @@ def pregunta_10():
 
     dat= pd.DataFrame([data8,lista]).T
     dat.columns = ["_c0", "_c1"]
+    dat.set_index("_c0")
     return dat
 
 
